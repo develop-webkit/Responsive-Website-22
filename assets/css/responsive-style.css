@@ -1,0 +1,159 @@
+.visible-xs{
+	display: none !important;
+}
+.hidden-xs{
+	display: block !important;
+}
+.container{
+		padding-left: 5rem !important;
+		padding-right: 5rem !important;
+	}
+@media(min-width: 1400px){
+	.container{
+		max-width: 1280px;
+	}
+}
+@media(max-width: 1400px){
+	html, body{
+		font-size: 14.5px;
+	}
+}
+@media(max-width: 1200px){
+	html, body{
+		font-size: 12.5px;
+	}
+}
+@media(max-width: 992px){
+	html, body{
+		font-size: 11px;
+	}
+	.exclu-sec1 h2{
+		margin-top:0;
+	}
+	.exclu-sec img{
+max-width: 37rem;
+margin-bottom: 2rem;
+}
+.exclu-sec-text{
+padding-left: 0;
+padding-bottom: 2rem;
+}
+.exclu-sec1 img{
+width: 20rem;
+max-width: 100%;
+}
+}
+@media(max-width: 767px){
+	html, body{
+		font-size: 13px;
+	}
+	.visible-xs{
+		display: block !important;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+	.hero-sec-img img{
+margin: auto;
+float: initial;
+display: block;
+margin-top: 3rem;
+}
+.exclu-sec2-col img{
+width: 10rem;
+max-width: 100%;
+margin-bottom: 1.5rem;
+}
+.exclu-sec2-col .col-md-10{
+padding-left: 0 !important;
+}
+.exclu-sec3-text{
+margin-top: 2rem;
+}
+.menu-mb,
+.menu-mb img{
+margin-left: auto;
+width: 3rem;
+height: 2rem;
+}
+.menu-btns{
+padding-bottom: 1.3rem;
+display: none;
+}
+.menu-btns button{
+width: 100%;
+max-width: 20rem;
+margin: auto;
+background-color: white;
+}
+.rel-sec .container{
+box-shadow: 0 5px 3px rgba(0,0,0,.1)
+}
+.exclu-sec .row{
+	flex-direction: column-reverse;
+	display: flex;
+}
+.exclu-sec {
+    padding-top: 2rem;
+}
+.container{
+		padding-left:2.5rem !important;
+		padding-right: 2.5rem !important;
+}
+.menu-btns button {
+    min-width: 49%;
+}
+.hero-sec h1{
+	font-size: 2.7rem;
+}
+.exclu-sec1-img{
+	padding-top: 2rem;
+}
+.exclu-sec1 img {
+    width: 18rem;
+    float: left;
+}
+.exclu-sec2-top {
+    padding-bottom: 0rem;
+}
+.exclu-sec3 .container {
+    background-color: #DDE7FF;
+    margin-top: 2.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+}
+p{
+	font-size: 1.1rem;
+}
+.menu-btns .d-flex{
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+}
+.menu-btns {
+    width: 100%;
+    position: absolute;
+    top: 5.4rem;
+    background-color: #F5F5F5;
+    left: 0;
+}
+.nav-d{
+width: 100%;
+text-align: center;;
+padding: 0 2.25rem;
+}
+.nav-d button{
+min-width: 100% !important;
+margin-bottom: 1rem;
+}
+.exclu-sec-text {
+    padding-left: .75rem;
+    padding-bottom: 1rem;
+}
+.rel-sec .gap-3{
+gap:0 !important;
+}
+.menu-mb.active img:nth-child(2){
+margin-right:0;
+}
+}
